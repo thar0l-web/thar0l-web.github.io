@@ -98,7 +98,7 @@
 		
 		function widthThumbnail(){		
 			var widthScreen = $(window).width();
-			var nElements = $(window).width() > 1200 ? 5 : $(window).width() > 1000 ? 4 : $(window).width() > 800 ? 3 : $(window).width() > 480 ? 2 : 1;
+			var nElements = $(window).width() > 1200 ? 5 : $(window).width() > 1000 ? 4 : $(window).width() > 800 ? 3 : $(window).width() > 480 ? 2 : 2;
 			return ( parseInt( widthScreen / nElements, 10) );
 		}
 	
